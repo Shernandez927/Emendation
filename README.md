@@ -2,12 +2,9 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+- This simple Text Editor application demonstrates how to meet the PWA(Progressive Web Application) criteria.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+- This application utilizes the idb package in conjuction with IndexedDB to store and retrvieve data, webpack to generate bundled files, and a manifest file, and service workers for pre caching data.
 
 ## Table of Contents
 
@@ -18,25 +15,25 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+If cloned locally, run the following command in the root directory:
+
+Before Initializing:
+
+```
+    npm install
+```
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To Initialize Application:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+```
+    npm start
+```
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+- Live Heroku Link [Here](https://emendation.herokuapp.com/)
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+  ![demo](./client/src/images/JATE_Demo.gif)
 
 ## License
 
@@ -65,10 +62,6 @@ SOFTWARE.
 ## Badges
 
 ![license](https://img.shields.io/github/license/shernandez927/emendation?style=for-the-badge) ![codesize](https://img.shields.io/github/languages/code-size/shernandez927/emendation?style=for-the-badge) ![language](https://img.shields.io/github/languages/count/shernandez927/emendation?style=for-the-badge)
-
-## Features
-
-If your project has a lot of features, list them here.
 
 ## Tests
 
