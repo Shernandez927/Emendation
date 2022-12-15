@@ -36,7 +36,7 @@ module.exports = () => {
         description: "Online/Offline Text Editor",
         background_color: "#31a9e1",
         theme_color: "#31a9e1",
-        start_url: "./",
+        start_url: "/",
         publicPath: "./",
         icons: [
           {
@@ -51,7 +51,7 @@ module.exports = () => {
     module: {
       rules: [
         {
-          test: /\.css$/i,
+          test: /\.css$/,
           use: ["style-loader", "css-loader"],
         },
         {
